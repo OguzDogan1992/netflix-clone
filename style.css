@@ -1,0 +1,486 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url("img/arkaplan.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.header .btn {
+    margin-bottom: 0px;
+}
+
+.header-content .btn {
+    margin-bottom: 50px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.header-content h4 {
+    margin-bottom: 30px;
+}
+
+.sec1 {
+    border-top: 8px solid rgba(128, 128, 128, 0.37);
+    border-bottom: 8px solid rgba(128, 128, 128, 0.37);
+    box-sizing: border-box;
+}
+
+.sec1 h1 {
+    margin-bottom: 3%;
+}
+
+.sec2 {
+    border-bottom: 8px solid rgba(128, 128, 128, 0.37);
+    box-sizing: border-box;
+}
+
+.accordion-button {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    margin-top: .5rem;
+    font-size: 26px;
+}
+
+.accordion-item {
+    border: none;
+    background-color: black;
+}
+
+.accordion-item h2{
+    margin-bottom: .5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    font-size: 26px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(img/close.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+}
+
+.sec3 {
+    border-bottom: 8px solid rgba(128, 128, 128, 0.37);
+    box-sizing: border-box;
+}
+
+li {
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+.abone h6 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer h6 {
+    font-size: 16px;
+    color: #737373;
+    padding-left: 230px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer ul li {
+    font-size: 13px;
+    color: #737373;
+    margin-right: 50px;
+}
+
+.abone {
+    border-bottom: 8px solid rgba(128, 128, 128, 0.37);
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin-bottom: 50px;
+}
+
+.abone .btn {
+    margin-bottom: 50px;
+}
+
+.footer .btn {
+    width: 150px;
+    height: 60px;
+}
+
+.footer a {
+    font-size: 13px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer p {
+    font-size: 13px;
+    color: #737373;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.video1 {
+    position: absolute;
+    top: 100px;
+    left: 99px;
+}
+
+.resim1 {
+    z-index: 2;
+}
+
+.animasyon {
+    position: relative;
+    display: flex;
+}
+
+.video2 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.resim2 {
+    z-index: 2;
+}
+
+.animasyon2 {
+    position: relative;
+    display: flex;
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.144)), url("img/loginbg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.login .header2 .logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.login .login-box {
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.login-box h1 {
+    margin-bottom: 50px;
+}
+
+.login-box input {
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 0;
+}
+
+.login-box button {
+    width: 100%;
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.login-box button:hover {
+    background-color: #bb2f3d !important;
+}
+
+.login-box .sign-up {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login-box p {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bh {
+    display: flex;
+}
+
+.bh p {
+    font-size: 14px;
+    margin-top: 18px;
+    margin-right: 95px;
+}
+
+.bh p1 {
+    margin-top: 18px;
+    color: #737373;
+    font-size: 14px;
+}
+
+.ft2 {
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100%;
+    height: 500px;
+}
+
+.footer {
+    background-color:rgba(0, 0, 0, 0.589);
+    width: 100%;
+    margin-top: 50px;
+}
+
+.navbar2 {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+}
+
+.ana {
+    display: flex;
+    list-style: none;
+}
+
+.ana a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar2 ul li {
+    font-size: 12px;
+    margin-right: 15px;
+    color: rgb(180, 180, 180);
+}
+
+.hesap {
+    margin-left: px;
+}
+
+
+.header3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.226)), url("img/arkaplan.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    margin-right: 5px;
+    background-color: rgb(122, 122, 122);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.movies {
+    width: 100%;
+    padding: 50px;
+    background-color: #181818;
+}
+
+
+
+.header4 {
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    height: 100vh;
+}
+
+.hesap-area {
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    margin-top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.resim-box {
+    width: 250px;
+    padding: 15px;
+}
+
+.hesap-area h5 {
+    padding-top: 25px;
+}
+
+.profilYönetimi {
+    margin-bottom: 30px;
+    width: 400px;
+    background-color: #737373;
+    color: white;
+}
+
+.header5 {
+    background-color: #f0ddc5;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.ft-hesap {
+    background-color: black;
+}
+
+.ft-hesap h6 {
+    padding-left: 328px;
+}
+
+.baslik{
+    margin-top: 6px;
+    display: flex;
+    list-style: none;
+}
+
+.baslik a {
+    color: white;
+    text-decoration: none;
+}
+
+.baslik a:hover{
+    color: #E50914;
+    transition: .34s;
+}
+
+.baslik li{
+    margin: 10px;
+    color: white;
+}
+
+@media screen and (max-width:415px) {
+    
+    /*! hesap */
+
+    .ft-hesap h6 {
+        padding: 10px;
+    }
+
+    .navbar2{
+        padding: 0;
+        padding-top: 21px;
+    }
+
+    .navbar2 ul li{
+        font-size: 10px;
+        margin: 0;
+        margin-left: 7px;
+    }
+
+    /*! browse index */
+
+    .footer h6{
+        padding: 10px;
+    }
+
+    .movies img{
+        margin: 7px;
+    }
+
+    /*! index */
+
+    .header .navbar .container a img{
+        width: 100px;
+    }
+
+    .header .navbar .container form button{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .sec1 , .sec2 , .sec3 h1{
+        text-align: center;
+    }
+
+    .sec1,.sec2,.sec3 h4{
+        text-align: center;
+
+    }
+
+    .video1{
+        top: 50px;
+        left: 55px;
+        width: 80%;
+    }
+
+    .video2{
+        top: 30px;
+        left: 80px;
+        width: 70%;
+    }
+
+    /*! browse */
+
+    .hesap-area button{
+        width: 166px;
+    }
+
+    /*! login */
+
+    .login .header2 .logo{
+        width: 120px;
+        margin-top: 12px;
+        margin-bottom:12px;
+        margin-left: 150px;
+    }
+
+    .bh p1 {
+        margin-top: 18px;
+        color: #737373;
+        font-size:13px;
+    }
+
+    .bh p {
+        font-size: 13px;
+        margin-top: 18px;
+        margin-right: 50px;
+    }
+}
